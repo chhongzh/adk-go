@@ -52,7 +52,7 @@ git switch -c my-fix origin/v1
 
 **Steps to Add a New Module (e.g., `plugin/myplugin`)**:
 1. Navigate into the directory: `cd <module_directory_path>`
-2. Initialize the module: `go mod init google.golang.org/adk/<module_directory_path>`
+2. Initialize the module: `go mod init github.com/chhongzh/adk-go/<module_directory_path>`
 3. Add your Go code, dependencies, and tests.
 4. Tidy the module: `go mod tidy`
 5. Return to the repo root.
@@ -65,7 +65,7 @@ git switch -c my-fix origin/v1
 - **Submodules**: Tags are prefixed with the full module path directory, e.g., `plugin/agentanalytics/v0.1.0`. This is the standard Go way to version modules not at the repo root.
 - **go get / go install**: Consumers will use:
   - `go get github.com/chhongzh/adk-go/v2@v2.1.0`
-  - `go get google.golang.org/adk/plugin/agentanalytics@v0.1.0`
+  - `go get github.com/chhongzh/adk-go/plugin/agentanalytics@v0.1.0`
 - **Version Coupling**: Each submodule's `go.mod` will specify the minimum version of `github.com/chhongzh/adk-go/v2` it depends on. Submodules can be released independently of the core module and each other.
 - **go.work Impact**: `go.work` is for local development only and does not affect how modules are versioned, tagged, or fetched by consumers.
 

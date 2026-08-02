@@ -1,4 +1,4 @@
-module google.golang.org/adk/plugin/agentanalytics
+module github.com/chhongzh/adk-go/plugin/agentanalytics
 
 go 1.26.5
 
