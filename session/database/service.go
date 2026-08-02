@@ -49,6 +49,10 @@ func NewSessionService(dialector gorm.Dialector, opts ...gorm.Option) (session.S
 	return &databaseService{db: db}, nil
 }
 
+func NewSessionServiceFromDB(db *gorm.DB) session.Service {
+	return &databaseService{db: db}
+}
+
 // AutoMigrate runs the GORM auto-migration tool to ensure the database schema
 // matches the internal storage models (e.g., storageSession, storageEvent).
 //
