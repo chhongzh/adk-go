@@ -25,9 +25,9 @@ import (
 	aiplatformpb "cloud.google.com/go/aiplatform/apiv1beta1/aiplatformpb"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/chhongzh/adk-go/v2/model"
-	"github.com/chhongzh/adk-go/v2/session"
-	"github.com/chhongzh/adk-go/v2/util/vertexai"
+	"google.golang.org/adk/v2/model"
+	"google.golang.org/adk/v2/session"
+	"google.golang.org/adk/v2/util/vertexai"
 
 	"google.golang.org/api/option"
 	"google.golang.org/genai"

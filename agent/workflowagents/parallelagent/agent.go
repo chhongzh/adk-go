@@ -22,10 +22,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	agentinternal "github.com/chhongzh/adk-go/v2/internal/agent"
-	icontext "github.com/chhongzh/adk-go/v2/internal/context"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/agent"
+	agentinternal "google.golang.org/adk/v2/internal/agent"
+	icontext "google.golang.org/adk/v2/internal/context"
+	"google.golang.org/adk/v2/session"
 )
 
 // Config defines the configuration for a ParallelAgent.

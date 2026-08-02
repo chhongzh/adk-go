@@ -28,9 +28,9 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/plugin"
-	"github.com/chhongzh/adk-go/v2/tool"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/plugin"
+	"google.golang.org/adk/v2/tool"
 
 	_ "embed"
 )

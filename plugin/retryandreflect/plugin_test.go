@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chhongzh/adk-go/v2/agent"
+	"google.golang.org/adk/v2/agent"
 )
 
 type mockTool struct {

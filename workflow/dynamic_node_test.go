@@ -19,8 +19,8 @@ import (
 	"iter"
 	"testing"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/session"
 )
 
 func TestNewDynamicNode_DefaultsRerunOnResume(t *testing.T) {

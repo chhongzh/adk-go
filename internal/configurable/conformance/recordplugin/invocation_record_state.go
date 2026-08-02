@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/internal/configurable/conformance/replayplugin/recording"
-	"github.com/chhongzh/adk-go/v2/model"
+	"google.golang.org/adk/v2/internal/configurable/conformance/replayplugin/recording"
+	"google.golang.org/adk/v2/model"
 )
 
 type invocationRecordState struct {

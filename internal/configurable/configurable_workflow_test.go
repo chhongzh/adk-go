@@ -25,9 +25,9 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/session"
-	"github.com/chhongzh/adk-go/v2/tool"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/session"
+	"google.golang.org/adk/v2/tool"
 )
 
 type mockSession struct{}

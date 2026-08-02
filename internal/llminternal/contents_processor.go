@@ -25,11 +25,11 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/internal/utils"
-	"github.com/chhongzh/adk-go/v2/model"
-	"github.com/chhongzh/adk-go/v2/session"
-	"github.com/chhongzh/adk-go/v2/tool/toolconfirmation"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/internal/utils"
+	"google.golang.org/adk/v2/model"
+	"google.golang.org/adk/v2/session"
+	"google.golang.org/adk/v2/tool/toolconfirmation"
 )
 
 // ContentRequestProcessor populates the LLMRequest's Contents based on

@@ -29,10 +29,10 @@ import (
 	"github.com/a2aproject/a2a-go/v2/a2aclient/agentcard"
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher/web"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/cmd/launcher"
+	"google.golang.org/adk/v2/cmd/launcher/web"
+	"google.golang.org/adk/v2/session"
 )
 
 func getFreePort(t *testing.T) int {

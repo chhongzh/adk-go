@@ -23,10 +23,10 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/agent/llmagent"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/agent/llmagent"
+	"google.golang.org/adk/v2/cmd/launcher"
+	"google.golang.org/adk/v2/session"
 )
 
 type simpleEvent struct {

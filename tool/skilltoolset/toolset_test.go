@@ -22,9 +22,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/chhongzh/adk-go/v2/model"
-	"github.com/chhongzh/adk-go/v2/tool/skilltoolset"
-	"github.com/chhongzh/adk-go/v2/tool/skilltoolset/skill"
+	"google.golang.org/adk/v2/model"
+	"google.golang.org/adk/v2/tool/skilltoolset"
+	"google.golang.org/adk/v2/tool/skilltoolset/skill"
 )
 
 type mockSource struct {

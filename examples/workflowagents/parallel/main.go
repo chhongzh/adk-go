@@ -26,12 +26,12 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/agent/workflowagents/parallelagent"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher/full"
-	"github.com/chhongzh/adk-go/v2/model"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/agent/workflowagents/parallelagent"
+	"google.golang.org/adk/v2/cmd/launcher"
+	"google.golang.org/adk/v2/cmd/launcher/full"
+	"google.golang.org/adk/v2/model"
+	"google.golang.org/adk/v2/session"
 )
 
 func main() {

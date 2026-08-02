@@ -22,10 +22,10 @@ import (
 	"github.com/google/jsonschema-go/jsonschema"
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	internalcontext "github.com/chhongzh/adk-go/v2/internal/context"
-	"github.com/chhongzh/adk-go/v2/internal/llminternal"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/agent"
+	internalcontext "google.golang.org/adk/v2/internal/context"
+	"google.golang.org/adk/v2/internal/llminternal"
+	"google.golang.org/adk/v2/session"
 )
 
 // AgentNode wraps a standard agent.Agent. Wrapped agents should emit their final output via

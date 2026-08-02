@@ -26,7 +26,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.36.0"
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/model"
+	"google.golang.org/adk/v2/model"
 )
 
 func TestLogRequest(t *testing.T) {

@@ -17,7 +17,7 @@ package routers
 import (
 	"net/http"
 
-	"github.com/chhongzh/adk-go/v2/server/adkrest/controllers"
+	"google.golang.org/adk/v2/server/adkrest/controllers"
 )
 
 // AppsAPIRouter defines the routes for the Apps API.

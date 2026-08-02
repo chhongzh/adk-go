@@ -19,13 +19,13 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/internal/llminternal"
-	"github.com/chhongzh/adk-go/v2/internal/utils"
-	"github.com/chhongzh/adk-go/v2/model"
-	"github.com/chhongzh/adk-go/v2/tool"
-	"github.com/chhongzh/adk-go/v2/tool/toolutils"
-	"github.com/chhongzh/adk-go/v2/workflow"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/internal/llminternal"
+	"google.golang.org/adk/v2/internal/utils"
+	"google.golang.org/adk/v2/model"
+	"google.golang.org/adk/v2/tool"
+	"google.golang.org/adk/v2/tool/toolutils"
+	"google.golang.org/adk/v2/workflow"
 )
 
 type SingleTurnTool struct {

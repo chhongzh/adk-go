@@ -23,14 +23,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/agent/llmagent"
-	"github.com/chhongzh/adk-go/v2/agent/workflowagents/loopagent"
-	"github.com/chhongzh/adk-go/v2/agent/workflowagents/parallelagent"
-	"github.com/chhongzh/adk-go/v2/agent/workflowagents/sequentialagent"
-	agentinternal "github.com/chhongzh/adk-go/v2/internal/agent"
-	"github.com/chhongzh/adk-go/v2/model"
-	"github.com/chhongzh/adk-go/v2/tool"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/agent/llmagent"
+	"google.golang.org/adk/v2/agent/workflowagents/loopagent"
+	"google.golang.org/adk/v2/agent/workflowagents/parallelagent"
+	"google.golang.org/adk/v2/agent/workflowagents/sequentialagent"
+	agentinternal "google.golang.org/adk/v2/internal/agent"
+	"google.golang.org/adk/v2/model"
+	"google.golang.org/adk/v2/tool"
 )
 
 type dummyLLM struct {

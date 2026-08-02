@@ -21,7 +21,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"github.com/chhongzh/adk-go/v2/auth"
+	"google.golang.org/adk/v2/auth"
 )
 
 const testEndpoint = "https://mcp.example/mcp"

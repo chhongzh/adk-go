@@ -21,8 +21,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/chhongzh/adk-go/v2/platform"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/platform"
+	"google.golang.org/adk/v2/session"
 )
 
 // TestNewEventDefaults covers the deprecated NewEvent, which must keep its

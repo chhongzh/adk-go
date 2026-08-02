@@ -24,13 +24,13 @@ import (
 	"log"
 	"os"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/agent/llmagent"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher/full"
-	openaimodel "github.com/chhongzh/adk-go/v2/model/openaimodel"
-	"github.com/chhongzh/adk-go/v2/tool"
-	"github.com/chhongzh/adk-go/v2/tool/functiontool"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/agent/llmagent"
+	"google.golang.org/adk/v2/cmd/launcher"
+	"google.golang.org/adk/v2/cmd/launcher/full"
+	openaimodel "google.golang.org/adk/v2/model/openaimodel"
+	"google.golang.org/adk/v2/tool"
+	"google.golang.org/adk/v2/tool/functiontool"
 )
 
 // defaultModel is used when OPENAI_MODEL is unset. gpt-4o-mini is cheap and

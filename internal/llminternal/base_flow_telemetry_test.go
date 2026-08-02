@@ -32,8 +32,8 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/genai"
 
-	icontext "github.com/chhongzh/adk-go/v2/internal/context"
-	"github.com/chhongzh/adk-go/v2/model"
+	icontext "google.golang.org/adk/v2/internal/context"
+	"google.golang.org/adk/v2/model"
 )
 
 type mockModelForTest struct {

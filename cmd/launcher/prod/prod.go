@@ -18,11 +18,11 @@
 package prod
 
 import (
-	"github.com/chhongzh/adk-go/v2/cmd/launcher"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher/universal"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher/web"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher/web/a2a"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher/web/api"
+	"google.golang.org/adk/v2/cmd/launcher"
+	"google.golang.org/adk/v2/cmd/launcher/universal"
+	"google.golang.org/adk/v2/cmd/launcher/web"
+	"google.golang.org/adk/v2/cmd/launcher/web/a2a"
+	"google.golang.org/adk/v2/cmd/launcher/web/api"
 )
 
 // NewLauncher returns a launcher capable of serving ADK REST API and A2A.

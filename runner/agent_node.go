@@ -24,11 +24,11 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/agent/llmagent"
-	"github.com/chhongzh/adk-go/v2/internal/utils"
-	"github.com/chhongzh/adk-go/v2/session"
-	"github.com/chhongzh/adk-go/v2/workflow"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/agent/llmagent"
+	"google.golang.org/adk/v2/internal/utils"
+	"google.golang.org/adk/v2/session"
+	"google.golang.org/adk/v2/workflow"
 )
 
 var rerunOnResume = true

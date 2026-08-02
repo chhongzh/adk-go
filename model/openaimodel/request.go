@@ -26,7 +26,7 @@ import (
 	"github.com/openai/openai-go/v3/shared/constant"
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/model"
+	"google.golang.org/adk/v2/model"
 )
 
 // buildOpenAIParams converts a generic LLMRequest into the OpenAI-specific

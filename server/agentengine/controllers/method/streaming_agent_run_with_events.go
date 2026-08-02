@@ -25,12 +25,12 @@ import (
 	"google.golang.org/genai"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/cmd/launcher"
-	"github.com/chhongzh/adk-go/v2/runner"
-	"github.com/chhongzh/adk-go/v2/server/agentengine/internal/helper"
-	"github.com/chhongzh/adk-go/v2/server/agentengine/internal/models"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/cmd/launcher"
+	"google.golang.org/adk/v2/runner"
+	"google.golang.org/adk/v2/server/agentengine/internal/helper"
+	"google.golang.org/adk/v2/server/agentengine/internal/models"
+	"google.golang.org/adk/v2/session"
 )
 
 type streamingAgentRunWithEventsHandler struct {

@@ -1,4 +1,4 @@
-module github.com/chhongzh/adk-go/v2
+module google.golang.org/adk/v2
 
 go 1.26.5
 

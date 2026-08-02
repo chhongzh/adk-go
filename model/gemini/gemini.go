@@ -25,11 +25,11 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/internal/llminternal"
-	"github.com/chhongzh/adk-go/v2/internal/llminternal/converters"
-	"github.com/chhongzh/adk-go/v2/internal/llminternal/googlellm"
-	"github.com/chhongzh/adk-go/v2/internal/version"
-	"github.com/chhongzh/adk-go/v2/model"
+	"google.golang.org/adk/v2/internal/llminternal"
+	"google.golang.org/adk/v2/internal/llminternal/converters"
+	"google.golang.org/adk/v2/internal/llminternal/googlellm"
+	"google.golang.org/adk/v2/internal/version"
+	"google.golang.org/adk/v2/model"
 )
 
 // TODO: test coverage

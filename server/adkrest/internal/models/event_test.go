@@ -17,9 +17,9 @@ package models_test
 import (
 	"testing"
 
-	"github.com/chhongzh/adk-go/v2/server/adkrest/internal/models"
-	"github.com/chhongzh/adk-go/v2/session"
-	"github.com/chhongzh/adk-go/v2/tool/toolconfirmation"
+	"google.golang.org/adk/v2/server/adkrest/internal/models"
+	"google.golang.org/adk/v2/session"
+	"google.golang.org/adk/v2/tool/toolconfirmation"
 )
 
 // TestEventRoundTripPreservesWorkflowFields asserts the REST event model

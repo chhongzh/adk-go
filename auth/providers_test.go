@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/chhongzh/adk-go/v2/auth"
+	"google.golang.org/adk/v2/auth"
 )
 
 func TestStaticToken(t *testing.T) {

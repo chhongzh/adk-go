@@ -22,13 +22,13 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/artifact"
-	agentinternal "github.com/chhongzh/adk-go/v2/internal/agent"
-	"github.com/chhongzh/adk-go/v2/internal/plugininternal/plugincontext"
-	"github.com/chhongzh/adk-go/v2/internal/telemetry"
-	"github.com/chhongzh/adk-go/v2/memory"
-	"github.com/chhongzh/adk-go/v2/model"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/artifact"
+	agentinternal "google.golang.org/adk/v2/internal/agent"
+	"google.golang.org/adk/v2/internal/plugininternal/plugincontext"
+	"google.golang.org/adk/v2/internal/telemetry"
+	"google.golang.org/adk/v2/memory"
+	"google.golang.org/adk/v2/model"
+	"google.golang.org/adk/v2/session"
 )
 
 // Agent is the base interface which all agents must implement.

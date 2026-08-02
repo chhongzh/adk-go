@@ -23,7 +23,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	icontext "github.com/chhongzh/adk-go/v2/internal/context"
+	icontext "google.golang.org/adk/v2/internal/context"
 )
 
 // TestMCPToolset_E2E is an end-to-end round trip: a real in-process MCP server

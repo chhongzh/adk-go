@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/chhongzh/adk-go/v2/auth"
+	"google.golang.org/adk/v2/auth"
 )
 
 func TestTransportAppliesCredential(t *testing.T) {

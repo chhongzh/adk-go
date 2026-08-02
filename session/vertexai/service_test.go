@@ -27,8 +27,8 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"
 
-	"github.com/chhongzh/adk-go/v2/session"
-	"github.com/chhongzh/adk-go/v2/session/sessiontestsuite"
+	"google.golang.org/adk/v2/session"
+	"google.golang.org/adk/v2/session/sessiontestsuite"
 )
 
 // if you want to test it for yourself, you can regenerate all by running

@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/chhongzh/adk-go/v2/server/agentengine/controllers/method"
-	"github.com/chhongzh/adk-go/v2/server/agentengine/internal/models"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/server/agentengine/controllers/method"
+	"google.golang.org/adk/v2/server/agentengine/internal/models"
+	"google.golang.org/adk/v2/session"
 )
 
 // AgentEngineAPIController holds information about the supported methods

@@ -23,10 +23,10 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.36.0"
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/server/adkrest/internal/models"
-	"github.com/chhongzh/adk-go/v2/server/adkrest/internal/services"
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/server/adkrest/internal/models"
+	"google.golang.org/adk/v2/server/adkrest/internal/services"
+	"google.golang.org/adk/v2/session"
 )
 
 // DebugAPIController is the controller for the Debug API.

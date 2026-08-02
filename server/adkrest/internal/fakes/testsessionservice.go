@@ -22,7 +22,7 @@ import (
 	"iter"
 	"time"
 
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/session"
 )
 
 type TestState map[string]any

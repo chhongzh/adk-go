@@ -22,7 +22,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/oauth2"
 
-	"github.com/chhongzh/adk-go/v2/auth"
+	"google.golang.org/adk/v2/auth"
 )
 
 // Compile-time assertions that the built-in credentials implement [auth.Credential].

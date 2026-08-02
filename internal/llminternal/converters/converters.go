@@ -17,7 +17,7 @@ package converters
 import (
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/model"
+	"google.golang.org/adk/v2/model"
 )
 
 func Genai2LLMResponse(res *genai.GenerateContentResponse) *model.LLMResponse {

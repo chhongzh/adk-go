@@ -21,7 +21,7 @@ import (
 
 	"github.com/openai/openai-go/v3/responses"
 
-	"github.com/chhongzh/adk-go/v2/internal/llminternal"
+	"google.golang.org/adk/v2/internal/llminternal"
 )
 
 func decodeEvent(t *testing.T, body string) responses.ResponseStreamEventUnion {

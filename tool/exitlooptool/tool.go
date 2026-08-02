@@ -18,9 +18,9 @@ package exitlooptool
 import (
 	"fmt"
 
-	"github.com/chhongzh/adk-go/v2/agent"
-	"github.com/chhongzh/adk-go/v2/tool"
-	"github.com/chhongzh/adk-go/v2/tool/functiontool"
+	"google.golang.org/adk/v2/agent"
+	"google.golang.org/adk/v2/tool"
+	"google.golang.org/adk/v2/tool/functiontool"
 )
 
 func exitLoop(ctx agent.Context, myArgs struct{}) (map[string]string, error) {

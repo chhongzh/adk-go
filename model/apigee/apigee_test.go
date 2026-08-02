@@ -25,7 +25,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/model"
+	"google.golang.org/adk/v2/model"
 )
 
 const proxyURL = "https://test.apigee.net"

@@ -20,8 +20,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/internal/utils"
-	"github.com/chhongzh/adk-go/v2/platform"
+	"google.golang.org/adk/v2/internal/utils"
+	"google.golang.org/adk/v2/platform"
 )
 
 func TestGenerateFunctionCallIDUsesProvider(t *testing.T) {

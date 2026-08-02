@@ -17,7 +17,7 @@ package recording
 import (
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/model"
+	"google.golang.org/adk/v2/model"
 )
 
 // Recordings represents all recordings in chronological order.

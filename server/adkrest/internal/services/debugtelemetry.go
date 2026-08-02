@@ -30,7 +30,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.36.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/chhongzh/adk-go/v2/internal/telemetry"
+	"google.golang.org/adk/v2/internal/telemetry"
 )
 
 const (

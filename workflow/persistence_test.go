@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/chhongzh/adk-go/v2/session"
+	"google.golang.org/adk/v2/session"
 )
 
 // sliceEvents adapts a []*session.Event to session.Events for tests.

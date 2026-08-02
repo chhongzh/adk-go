@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go/bigquery v1.79.0
 	github.com/apache/arrow-go/v18 v18.6.0
 	go.opentelemetry.io/otel/trace v1.44.0
-	github.com/chhongzh/adk-go/v2 v2.0.0
+	google.golang.org/adk/v2 v2.0.0
 	google.golang.org/api v0.288.0
 	google.golang.org/genai v1.63.0
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260713224248-f5fc221cf8c4
