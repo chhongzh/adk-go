@@ -31,9 +31,9 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/telemetry"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/telemetry"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 var upperNode = NewFunctionNode("upper", func(ctx agent.Context, input string) (string, error) {

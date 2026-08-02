@@ -17,7 +17,7 @@ package models
 import (
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // StreamingAgentRunWithEventsRequest is the JSON-encoded payload for the

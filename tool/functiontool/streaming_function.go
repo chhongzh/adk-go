@@ -24,11 +24,11 @@ import (
 	"github.com/google/jsonschema-go/jsonschema"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/typeutil"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/toolutils"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/typeutil"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/toolutils"
 )
 
 // StreamingFunc represents a Go function that streams results.

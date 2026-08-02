@@ -32,15 +32,15 @@ import (
 	v2asrv "github.com/a2aproject/a2a-go/v2/a2asrv"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/llmagent"
-	icontext "google.golang.org/adk/v2/internal/context"
-	"google.golang.org/adk/v2/internal/testutil"
-	"google.golang.org/adk/v2/internal/utils"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/runner"
-	"google.golang.org/adk/v2/server/adka2a"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/llmagent"
+	icontext "github.com/chhongzh/adk-go/v2/internal/context"
+	"github.com/chhongzh/adk-go/v2/internal/testutil"
+	"github.com/chhongzh/adk-go/v2/internal/utils"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/runner"
+	"github.com/chhongzh/adk-go/v2/server/adka2a"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 func TestCompat_OldExecutor_Direct(t *testing.T) {

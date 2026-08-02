@@ -24,10 +24,10 @@ import (
 
 	"github.com/google/jsonschema-go/jsonschema"
 
-	"google.golang.org/adk/v2/internal/llminternal"
-	"google.golang.org/adk/v2/internal/typeutil"
-	"google.golang.org/adk/v2/internal/utils"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/internal/llminternal"
+	"github.com/chhongzh/adk-go/v2/internal/typeutil"
+	"github.com/chhongzh/adk-go/v2/internal/utils"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // ErrDuplicateNodeName is returned when an edge set contains two

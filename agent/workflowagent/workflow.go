@@ -21,11 +21,11 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	agentinternal "google.golang.org/adk/v2/internal/agent"
-	"google.golang.org/adk/v2/internal/utils"
-	"google.golang.org/adk/v2/session"
-	"google.golang.org/adk/v2/workflow"
+	"github.com/chhongzh/adk-go/v2/agent"
+	agentinternal "github.com/chhongzh/adk-go/v2/internal/agent"
+	"github.com/chhongzh/adk-go/v2/internal/utils"
+	"github.com/chhongzh/adk-go/v2/session"
+	"github.com/chhongzh/adk-go/v2/workflow"
 )
 
 // Config is the configuration for creating a new Workflow agent.

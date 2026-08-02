@@ -23,19 +23,19 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/toolinternal"
-	"google.golang.org/adk/v2/internal/utils"
-	"google.golang.org/adk/v2/memory"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/session"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/agenttool"
-	"google.golang.org/adk/v2/tool/functiontool"
-	"google.golang.org/adk/v2/tool/geminitool"
-	"google.golang.org/adk/v2/tool/loadartifactstool"
-	"google.golang.org/adk/v2/tool/toolconfirmation"
-	"google.golang.org/adk/v2/tool/toolutils"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/toolinternal"
+	"github.com/chhongzh/adk-go/v2/internal/utils"
+	"github.com/chhongzh/adk-go/v2/memory"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/session"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/agenttool"
+	"github.com/chhongzh/adk-go/v2/tool/functiontool"
+	"github.com/chhongzh/adk-go/v2/tool/geminitool"
+	"github.com/chhongzh/adk-go/v2/tool/loadartifactstool"
+	"github.com/chhongzh/adk-go/v2/tool/toolconfirmation"
+	"github.com/chhongzh/adk-go/v2/tool/toolutils"
 )
 
 func TestTypes(t *testing.T) {

@@ -20,11 +20,11 @@ import (
 	"os"
 	"strings"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/workflowagent"
-	"google.golang.org/adk/v2/cmd/launcher"
-	"google.golang.org/adk/v2/cmd/launcher/full"
-	"google.golang.org/adk/v2/workflow"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/workflowagent"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher/full"
+	"github.com/chhongzh/adk-go/v2/workflow"
 )
 
 func main() {

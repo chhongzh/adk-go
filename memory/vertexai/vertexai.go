@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"google.golang.org/adk/v2/memory"
-	"google.golang.org/adk/v2/session"
-	vertexaiutil "google.golang.org/adk/v2/util/vertexai"
+	"github.com/chhongzh/adk-go/v2/memory"
+	"github.com/chhongzh/adk-go/v2/session"
+	vertexaiutil "github.com/chhongzh/adk-go/v2/util/vertexai"
 )
 
 type vertexAIService struct {

@@ -20,8 +20,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // edgeIDs renders edges as "From→To" strings using node names.

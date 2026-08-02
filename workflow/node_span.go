@@ -22,8 +22,8 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"go.opentelemetry.io/otel/trace/noop"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/telemetry"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/telemetry"
 )
 
 // nodeSpan is the single invoke_node span shared by both schedulers and

@@ -22,9 +22,9 @@ import (
 
 	"github.com/google/jsonschema-go/jsonschema"
 
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/platform"
-	"google.golang.org/adk/v2/tool/toolconfirmation"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/platform"
+	"github.com/chhongzh/adk-go/v2/tool/toolconfirmation"
 )
 
 // Session represents a series of interactions between a user and agents.

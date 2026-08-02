@@ -24,18 +24,18 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/llmagent"
-	"google.golang.org/adk/v2/cmd/launcher"
-	"google.golang.org/adk/v2/cmd/launcher/agentengine"
-	vertexaiMem "google.golang.org/adk/v2/memory/vertexai"
-	"google.golang.org/adk/v2/model/gemini"
-	"google.golang.org/adk/v2/plugin"
-	"google.golang.org/adk/v2/runner"
-	"google.golang.org/adk/v2/session/vertexai"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/functiontool"
-	vertexaiutil "google.golang.org/adk/v2/util/vertexai"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/llmagent"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher/agentengine"
+	vertexaiMem "github.com/chhongzh/adk-go/v2/memory/vertexai"
+	"github.com/chhongzh/adk-go/v2/model/gemini"
+	"github.com/chhongzh/adk-go/v2/plugin"
+	"github.com/chhongzh/adk-go/v2/runner"
+	"github.com/chhongzh/adk-go/v2/session/vertexai"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/functiontool"
+	vertexaiutil "github.com/chhongzh/adk-go/v2/util/vertexai"
 )
 
 // Args defines the input structure for the memory search tool.

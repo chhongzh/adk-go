@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/session"
-	"google.golang.org/adk/v2/workflow"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/session"
+	"github.com/chhongzh/adk-go/v2/workflow"
 )
 
 // TestWorkflowAgent_ReEntry_ResumesAtSameNode verifies the canonical

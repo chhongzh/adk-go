@@ -21,9 +21,9 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/auth"
-	"google.golang.org/adk/v2/tool"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/auth"
+	"github.com/chhongzh/adk-go/v2/tool"
 )
 
 // New returns MCP ToolSet.
@@ -110,7 +110,7 @@ type Config struct {
 	// HTTP request via a context-aware RoundTripper. It requires a streamable
 	// HTTP transport: set Endpoint, or pass a *mcp.StreamableClientTransport.
 	// Combining Auth with a non-HTTP transport (e.g. a stdio command) is a
-	// configuration error. See package google.golang.org/adk/v2/auth.
+	// configuration error. See package github.com/chhongzh/adk-go/v2/auth.
 	//
 	// Don't also set OAuthHandler on a supplied *mcp.StreamableClientTransport:
 	// Auth is applied last and overwrites the Authorization header, so the two

@@ -24,11 +24,11 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/llminternal"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/runner"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/llminternal"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/runner"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 type TestAgentRunner struct {

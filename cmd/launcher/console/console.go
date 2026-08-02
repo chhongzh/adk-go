@@ -31,13 +31,13 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/cmd/launcher"
-	"google.golang.org/adk/v2/cmd/launcher/internal/telemetry"
-	"google.golang.org/adk/v2/cmd/launcher/universal"
-	"google.golang.org/adk/v2/internal/cli/util"
-	"google.golang.org/adk/v2/runner"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher/internal/telemetry"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher/universal"
+	"github.com/chhongzh/adk-go/v2/internal/cli/util"
+	"github.com/chhongzh/adk-go/v2/runner"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // consoleConfig contains command-line params for console launcher

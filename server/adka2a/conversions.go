@@ -25,9 +25,9 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	v2 "google.golang.org/adk/v2/server/adka2a/v2"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	v2 "github.com/chhongzh/adk-go/v2/server/adka2a/v2"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // BuildAgentSkills attempts to create a list of [a2a.AgentSkill]s based on agent descriptions and types.

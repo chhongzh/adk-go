@@ -17,7 +17,7 @@ package workflow
 import (
 	"fmt"
 
-	"google.golang.org/adk/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent"
 )
 
 // RunNodeOption configures a single RunNode call.

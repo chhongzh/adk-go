@@ -23,14 +23,14 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/llmagent"
-	"google.golang.org/adk/v2/internal/telemetry"
-	"google.golang.org/adk/v2/internal/telemetry/telemetrytest"
-	"google.golang.org/adk/v2/internal/telemetry/telemetrytestcase"
-	"google.golang.org/adk/v2/internal/testutil"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/functiontool"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/llmagent"
+	"github.com/chhongzh/adk-go/v2/internal/telemetry"
+	"github.com/chhongzh/adk-go/v2/internal/telemetry/telemetrytest"
+	"github.com/chhongzh/adk-go/v2/internal/telemetry/telemetrytestcase"
+	"github.com/chhongzh/adk-go/v2/internal/testutil"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/functiontool"
 )
 
 // captureMessageContentEnvVar is the OpenTelemetry-spec env var

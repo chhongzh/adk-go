@@ -20,9 +20,9 @@ import (
 	"strings"
 	"sync"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/utils"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/utils"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // dynamicSubScheduler runs the children of one dynamic-node activation.

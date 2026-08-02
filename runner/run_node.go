@@ -22,18 +22,18 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/agent/parentmap"
-	"google.golang.org/adk/v2/internal/agent/runconfig"
-	artifactinternal "google.golang.org/adk/v2/internal/artifact"
-	icontext "google.golang.org/adk/v2/internal/context"
-	"google.golang.org/adk/v2/internal/llminternal"
-	imemory "google.golang.org/adk/v2/internal/memory"
-	"google.golang.org/adk/v2/internal/plugininternal"
-	"google.golang.org/adk/v2/internal/utils"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/session"
-	"google.golang.org/adk/v2/workflow"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/agent/parentmap"
+	"github.com/chhongzh/adk-go/v2/internal/agent/runconfig"
+	artifactinternal "github.com/chhongzh/adk-go/v2/internal/artifact"
+	icontext "github.com/chhongzh/adk-go/v2/internal/context"
+	"github.com/chhongzh/adk-go/v2/internal/llminternal"
+	imemory "github.com/chhongzh/adk-go/v2/internal/memory"
+	"github.com/chhongzh/adk-go/v2/internal/plugininternal"
+	"github.com/chhongzh/adk-go/v2/internal/utils"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/session"
+	"github.com/chhongzh/adk-go/v2/workflow"
 )
 
 // isLlmAgent reports whether a is an LlmAgent (i.e. backed by the

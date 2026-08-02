@@ -24,11 +24,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	icontext "google.golang.org/adk/v2/internal/context"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/functiontool"
+	"github.com/chhongzh/adk-go/v2/agent"
+	icontext "github.com/chhongzh/adk-go/v2/internal/context"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/functiontool"
 )
 
 type mockLiveSession struct {

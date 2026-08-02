@@ -17,7 +17,7 @@ package routers
 import (
 	"net/http"
 
-	"google.golang.org/adk/v2/server/adkrest/controllers"
+	"github.com/chhongzh/adk-go/v2/server/adkrest/controllers"
 )
 
 // RuntimeAPIRouter defines the routes for the Runtime API.

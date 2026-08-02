@@ -15,7 +15,7 @@
 package models
 
 import (
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // CreateSessionRequest represents an request aligned with aiplatform standard

@@ -16,10 +16,10 @@
 package agentengine
 
 import (
-	"google.golang.org/adk/v2/cmd/launcher"
-	"google.golang.org/adk/v2/cmd/launcher/universal"
-	"google.golang.org/adk/v2/cmd/launcher/web"
-	webagentengine "google.golang.org/adk/v2/cmd/launcher/web/agentengine"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher/universal"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher/web"
+	webagentengine "github.com/chhongzh/adk-go/v2/cmd/launcher/web/agentengine"
 )
 
 // NewLauncher returns a launcher capable of serving queries from AgentEngine.

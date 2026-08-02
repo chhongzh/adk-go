@@ -21,9 +21,9 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/plugin"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/plugin"
 )
 
 type FunctionCallModifierConfig struct {

@@ -22,15 +22,15 @@ import (
 	"os"
 	"path/filepath"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/cmd/launcher"
-	"google.golang.org/adk/v2/cmd/launcher/full"
-	"google.golang.org/adk/v2/internal/configurable"
-	"google.golang.org/adk/v2/internal/configurable/conformance"
-	"google.golang.org/adk/v2/internal/configurable/conformance/recordplugin"
-	"google.golang.org/adk/v2/internal/configurable/conformance/replayplugin"
-	"google.golang.org/adk/v2/plugin"
-	"google.golang.org/adk/v2/runner"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher/full"
+	"github.com/chhongzh/adk-go/v2/internal/configurable"
+	"github.com/chhongzh/adk-go/v2/internal/configurable/conformance"
+	"github.com/chhongzh/adk-go/v2/internal/configurable/conformance/recordplugin"
+	"github.com/chhongzh/adk-go/v2/internal/configurable/conformance/replayplugin"
+	"github.com/chhongzh/adk-go/v2/plugin"
+	"github.com/chhongzh/adk-go/v2/runner"
 )
 
 func main() {

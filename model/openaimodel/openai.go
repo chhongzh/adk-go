@@ -24,9 +24,9 @@ import (
 	"github.com/openai/openai-go/v3/option"
 	"github.com/openai/openai-go/v3/responses"
 
-	"google.golang.org/adk/v2/internal/llminternal"
-	"google.golang.org/adk/v2/internal/llminternal/converters"
-	"google.golang.org/adk/v2/model"
+	"github.com/chhongzh/adk-go/v2/internal/llminternal"
+	"github.com/chhongzh/adk-go/v2/internal/llminternal/converters"
+	"github.com/chhongzh/adk-go/v2/model"
 )
 
 // ClientConfig configures the OpenAI client. Mirrors model/gemini, which takes

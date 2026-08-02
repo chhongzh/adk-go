@@ -22,8 +22,8 @@ import (
 
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"google.golang.org/adk/v2/server/agentengine/internal/models"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/server/agentengine/internal/models"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 type createSessionHandler struct {

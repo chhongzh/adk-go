@@ -23,7 +23,7 @@ import (
 	"github.com/google/jsonschema-go/jsonschema"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // BaseNode provides identity and a default Config implementation for

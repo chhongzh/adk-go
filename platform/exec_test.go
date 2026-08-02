@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"google.golang.org/adk/v2/platform"
+	"github.com/chhongzh/adk-go/v2/platform"
 )
 
 func TestRunTasksDefaultRunsAllTasks(t *testing.T) {

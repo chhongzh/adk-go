@@ -22,13 +22,13 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	icontext "google.golang.org/adk/v2/internal/context"
-	"google.golang.org/adk/v2/internal/toolinternal"
-	"google.golang.org/adk/v2/memory"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/session"
-	"google.golang.org/adk/v2/tool/loadmemorytool"
+	"github.com/chhongzh/adk-go/v2/agent"
+	icontext "github.com/chhongzh/adk-go/v2/internal/context"
+	"github.com/chhongzh/adk-go/v2/internal/toolinternal"
+	"github.com/chhongzh/adk-go/v2/memory"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/session"
+	"github.com/chhongzh/adk-go/v2/tool/loadmemorytool"
 )
 
 type mockMemory struct {

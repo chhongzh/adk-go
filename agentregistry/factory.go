@@ -28,10 +28,10 @@ import (
 	"github.com/a2aproject/a2a-go/v2/a2aclient"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"google.golang.org/adk/v2/agent"
-	remoteagent "google.golang.org/adk/v2/agent/remoteagent/v2"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/mcptoolset"
+	"github.com/chhongzh/adk-go/v2/agent"
+	remoteagent "github.com/chhongzh/adk-go/v2/agent/remoteagent/v2"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/mcptoolset"
 )
 
 // egressConfig holds the resolved options shared by the factory helpers.

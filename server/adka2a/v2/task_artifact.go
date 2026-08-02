@@ -20,7 +20,7 @@ import (
 	"github.com/a2aproject/a2a-go/v2/a2a"
 	"github.com/a2aproject/a2a-go/v2/a2asrv"
 
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 type artifactMaker struct {

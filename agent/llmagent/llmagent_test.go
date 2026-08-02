@@ -28,16 +28,16 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/llmagent"
-	"google.golang.org/adk/v2/internal/agent/runconfig"
-	"google.golang.org/adk/v2/internal/testutil"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/model/gemini"
-	"google.golang.org/adk/v2/session"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/functiontool"
-	"google.golang.org/adk/v2/workflow"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/llmagent"
+	"github.com/chhongzh/adk-go/v2/internal/agent/runconfig"
+	"github.com/chhongzh/adk-go/v2/internal/testutil"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/model/gemini"
+	"github.com/chhongzh/adk-go/v2/session"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/functiontool"
+	"github.com/chhongzh/adk-go/v2/workflow"
 )
 
 const (

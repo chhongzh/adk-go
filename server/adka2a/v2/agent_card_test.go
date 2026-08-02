@@ -20,14 +20,14 @@ import (
 	"github.com/a2aproject/a2a-go/v2/a2a"
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/llmagent"
-	"google.golang.org/adk/v2/agent/workflowagents/loopagent"
-	"google.golang.org/adk/v2/agent/workflowagents/parallelagent"
-	"google.golang.org/adk/v2/agent/workflowagents/sequentialagent"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/geminitool"
-	"google.golang.org/adk/v2/tool/loadartifactstool"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/llmagent"
+	"github.com/chhongzh/adk-go/v2/agent/workflowagents/loopagent"
+	"github.com/chhongzh/adk-go/v2/agent/workflowagents/parallelagent"
+	"github.com/chhongzh/adk-go/v2/agent/workflowagents/sequentialagent"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/geminitool"
+	"github.com/chhongzh/adk-go/v2/tool/loadartifactstool"
 )
 
 func must[T agent.Agent](a T, err error) T {

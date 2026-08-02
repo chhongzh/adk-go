@@ -19,9 +19,9 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/internal/workflowinternal"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/internal/workflowinternal"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // TestFindActiveTaskIsolationScope walks session events backwards and

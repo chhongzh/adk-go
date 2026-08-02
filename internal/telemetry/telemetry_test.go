@@ -29,9 +29,9 @@ import (
 	"go.opentelemetry.io/otel/trace/noop"
 	"google.golang.org/genai"
 
-	agentinternal "google.golang.org/adk/v2/internal/agent"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/session"
+	agentinternal "github.com/chhongzh/adk-go/v2/internal/agent"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 func TestWrapYield(t *testing.T) {

@@ -1,6 +1,6 @@
 # Workflow examples
 
-Runnable samples for the adk-go **graph workflow engine** (`google.golang.org/adk/v2/workflow` + `agent/workflowagent`). Each sample is a `main` package that builds a `workflowagent` from a graph of nodes and serves it through the console launcher.
+Runnable samples for the adk-go **graph workflow engine** (`github.com/chhongzh/adk-go/v2/workflow` + `agent/workflowagent`). Each sample is a `main` package that builds a `workflowagent` from a graph of nodes and serves it through the console launcher.
 
 Every example has its own README with a Mermaid diagram, a goal, run instructions, and an example session.
 

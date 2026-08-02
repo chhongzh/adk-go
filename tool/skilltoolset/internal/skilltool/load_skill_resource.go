@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"io"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/functiontool"
-	"google.golang.org/adk/v2/tool/skilltoolset/skill"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/functiontool"
+	"github.com/chhongzh/adk-go/v2/tool/skilltoolset/skill"
 )
 
 const maxResourceSize = 10 * 1024 * 1024 // 10 MiB

@@ -23,9 +23,9 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/session"
-	"google.golang.org/adk/v2/tool"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/session"
+	"github.com/chhongzh/adk-go/v2/tool"
 )
 
 // ToolNode wraps a tool from the tool package.

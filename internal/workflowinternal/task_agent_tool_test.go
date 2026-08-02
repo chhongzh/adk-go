@@ -22,10 +22,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/llmagent"
-	"google.golang.org/adk/v2/internal/workflowinternal"
-	"google.golang.org/adk/v2/model"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/llmagent"
+	"github.com/chhongzh/adk-go/v2/internal/workflowinternal"
+	"github.com/chhongzh/adk-go/v2/model"
 )
 
 const (

@@ -64,9 +64,9 @@ git switch -c my-fix origin/v1
 - **Core Module**: Tags remain `vX.Y.Z` (e.g., `v2.1.0`).
 - **Submodules**: Tags are prefixed with the full module path directory, e.g., `plugin/agentanalytics/v0.1.0`. This is the standard Go way to version modules not at the repo root.
 - **go get / go install**: Consumers will use:
-  - `go get google.golang.org/adk/v2@v2.1.0`
+  - `go get github.com/chhongzh/adk-go/v2@v2.1.0`
   - `go get google.golang.org/adk/plugin/agentanalytics@v0.1.0`
-- **Version Coupling**: Each submodule's `go.mod` will specify the minimum version of `google.golang.org/adk/v2` it depends on. Submodules can be released independently of the core module and each other.
+- **Version Coupling**: Each submodule's `go.mod` will specify the minimum version of `github.com/chhongzh/adk-go/v2` it depends on. Submodules can be released independently of the core module and each other.
 - **go.work Impact**: `go.work` is for local development only and does not affect how modules are versioned, tagged, or fetched by consumers.
 
 ## Before you begin

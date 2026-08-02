@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"google.golang.org/adk/v2/cmd/launcher"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher"
 )
 
 // uniLauncher contains information about sublaunchers

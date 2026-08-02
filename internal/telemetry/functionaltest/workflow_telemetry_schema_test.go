@@ -25,15 +25,15 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/llmagent"
-	"google.golang.org/adk/v2/agent/workflowagent"
-	"google.golang.org/adk/v2/internal/telemetry"
-	"google.golang.org/adk/v2/internal/telemetry/telemetrytest"
-	"google.golang.org/adk/v2/internal/telemetry/telemetrytestcase"
-	"google.golang.org/adk/v2/internal/testutil"
-	"google.golang.org/adk/v2/session"
-	"google.golang.org/adk/v2/workflow"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/llmagent"
+	"github.com/chhongzh/adk-go/v2/agent/workflowagent"
+	"github.com/chhongzh/adk-go/v2/internal/telemetry"
+	"github.com/chhongzh/adk-go/v2/internal/telemetry/telemetrytest"
+	"github.com/chhongzh/adk-go/v2/internal/telemetry/telemetrytestcase"
+	"github.com/chhongzh/adk-go/v2/internal/testutil"
+	"github.com/chhongzh/adk-go/v2/session"
+	"github.com/chhongzh/adk-go/v2/workflow"
 )
 
 // errorStage selects which component of the canonical workflow

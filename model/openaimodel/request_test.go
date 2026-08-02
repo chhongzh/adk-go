@@ -26,7 +26,7 @@ import (
 	"github.com/openai/openai-go/v3/shared/constant"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/model"
+	"github.com/chhongzh/adk-go/v2/model"
 )
 
 func TestBuildOpenAIParams_Text(t *testing.T) {

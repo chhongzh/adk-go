@@ -17,7 +17,7 @@ package runconfig
 import (
 	"context"
 
-	"google.golang.org/adk/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent"
 )
 
 type StreamingMode string

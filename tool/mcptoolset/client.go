@@ -24,7 +24,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"google.golang.org/adk/v2/internal/version"
+	"github.com/chhongzh/adk-go/v2/internal/version"
 )
 
 // MCPClient abstracts MCP session operations for easier connection management.

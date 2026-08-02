@@ -26,7 +26,7 @@ import (
 	"github.com/openai/openai-go/v3"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/model"
+	"github.com/chhongzh/adk-go/v2/model"
 )
 
 func TestModel_Generate(t *testing.T) {

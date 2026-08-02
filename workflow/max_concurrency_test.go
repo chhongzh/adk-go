@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/adk/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent"
 )
 
 // bumpPeak increments inFlight, updates peak if the new value is

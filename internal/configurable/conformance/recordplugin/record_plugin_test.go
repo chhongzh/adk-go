@@ -27,13 +27,13 @@ import (
 	"google.golang.org/genai"
 	"gopkg.in/yaml.v3"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/configurable/conformance/recordplugin"
-	"google.golang.org/adk/v2/internal/configurable/conformance/replayplugin/recording"
-	"google.golang.org/adk/v2/memory"
-	"google.golang.org/adk/v2/model"
-	"google.golang.org/adk/v2/plugin"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/configurable/conformance/recordplugin"
+	"github.com/chhongzh/adk-go/v2/internal/configurable/conformance/replayplugin/recording"
+	"github.com/chhongzh/adk-go/v2/memory"
+	"github.com/chhongzh/adk-go/v2/model"
+	"github.com/chhongzh/adk-go/v2/plugin"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 func TestRecordPlugin(t *testing.T) {

@@ -6,7 +6,7 @@ CONTRIBUTING.md.
 
 ## Project overview
 
-ADK Go (`google.golang.org/adk/v2`) is an open-source, code-first Go toolkit for
+ADK Go (`github.com/chhongzh/adk-go/v2`) is an open-source, code-first Go toolkit for
 building, evaluating, and deploying AI agents. It is model-agnostic but
 optimized for Gemini, and is one of several ADK implementations — Go, Python,
 Java, Kotlin, and TypeScript — that share a conceptual model but are independent
@@ -18,7 +18,7 @@ Development happens on `main`, the 2.x line. `v1` is the maintenance branch for
 
 ## Setup & core commands
 
-This repo is multi-module: the root module `google.golang.org/adk/v2` plus
+This repo is multi-module: the root module `github.com/chhongzh/adk-go/v2` plus
 `plugin/agentanalytics`. Set up a Go workspace first — `go.work` is local-only
 and gitignored, and `go work init` fails if one already exists:
 

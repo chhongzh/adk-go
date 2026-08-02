@@ -18,10 +18,10 @@ package skilltool
 import (
 	"fmt"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/tool"
-	"google.golang.org/adk/v2/tool/functiontool"
-	"google.golang.org/adk/v2/tool/skilltoolset/skill"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/tool"
+	"github.com/chhongzh/adk-go/v2/tool/functiontool"
+	"github.com/chhongzh/adk-go/v2/tool/skilltoolset/skill"
 )
 
 // LoadSkillArgs represents the input to load a skill.

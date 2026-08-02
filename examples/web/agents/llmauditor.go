@@ -20,10 +20,10 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/agent/llmagent"
-	"google.golang.org/adk/v2/agent/workflowagents/sequentialagent"
-	"google.golang.org/adk/v2/model"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/agent/llmagent"
+	"github.com/chhongzh/adk-go/v2/agent/workflowagents/sequentialagent"
+	"github.com/chhongzh/adk-go/v2/model"
 )
 
 const EndMark = "---END-OF-EDIT---"

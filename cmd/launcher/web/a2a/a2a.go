@@ -25,11 +25,11 @@ import (
 	"github.com/a2aproject/a2a-go/v2/a2asrv"
 	"github.com/gorilla/mux"
 
-	"google.golang.org/adk/v2/cmd/launcher"
-	"google.golang.org/adk/v2/cmd/launcher/web"
-	"google.golang.org/adk/v2/internal/cli/util"
-	"google.golang.org/adk/v2/runner"
-	"google.golang.org/adk/v2/server/adka2a/v2"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher"
+	"github.com/chhongzh/adk-go/v2/cmd/launcher/web"
+	"github.com/chhongzh/adk-go/v2/internal/cli/util"
+	"github.com/chhongzh/adk-go/v2/runner"
+	"github.com/chhongzh/adk-go/v2/server/adka2a/v2"
 )
 
 // compatAPIPath is a suffix used to build an A2A invocation URL for 0.3

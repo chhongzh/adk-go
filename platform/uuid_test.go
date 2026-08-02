@@ -20,7 +20,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"google.golang.org/adk/v2/platform"
+	"github.com/chhongzh/adk-go/v2/platform"
 )
 
 func TestNewUUIDDefaultIsRandomAndValid(t *testing.T) {

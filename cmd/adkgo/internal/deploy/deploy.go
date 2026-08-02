@@ -18,7 +18,7 @@ package deploy
 import (
 	"github.com/spf13/cobra"
 
-	"google.golang.org/adk/v2/cmd/adkgo/internal/root"
+	"github.com/chhongzh/adk-go/v2/cmd/adkgo/internal/root"
 )
 
 // DeployCmd represents the deploy command.

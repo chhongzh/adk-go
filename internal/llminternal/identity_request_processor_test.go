@@ -20,10 +20,10 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/agent"
-	icontext "google.golang.org/adk/v2/internal/context"
-	"google.golang.org/adk/v2/internal/utils"
-	"google.golang.org/adk/v2/model"
+	"github.com/chhongzh/adk-go/v2/agent"
+	icontext "github.com/chhongzh/adk-go/v2/internal/context"
+	"github.com/chhongzh/adk-go/v2/internal/utils"
+	"github.com/chhongzh/adk-go/v2/model"
 )
 
 func TestIdentityRequestProcessor(t *testing.T) {

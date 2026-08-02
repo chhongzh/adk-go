@@ -23,8 +23,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/v2/internal/llminternal/converters"
-	"google.golang.org/adk/v2/model"
+	"github.com/chhongzh/adk-go/v2/internal/llminternal/converters"
+	"github.com/chhongzh/adk-go/v2/model"
 )
 
 // streamingResponseAggregator aggregates partial streaming responses.

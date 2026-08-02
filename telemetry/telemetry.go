@@ -73,7 +73,7 @@ func (t *Providers) SetGlobalOtelProviders() {
 //
 //		"go.opentelemetry.io/otel/sdk/resource"
 //		semconv "go.opentelemetry.io/otel/semconv/v1.36.0"
-//		"google.golang.org/adk/v2/telemetry"
+//		"github.com/chhongzh/adk-go/v2/telemetry"
 //	 )
 //
 //	 func main() {

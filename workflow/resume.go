@@ -21,9 +21,9 @@ import (
 
 	"github.com/google/jsonschema-go/jsonschema"
 
-	"google.golang.org/adk/v2/agent"
-	"google.golang.org/adk/v2/internal/typeutil"
-	"google.golang.org/adk/v2/session"
+	"github.com/chhongzh/adk-go/v2/agent"
+	"github.com/chhongzh/adk-go/v2/internal/typeutil"
+	"github.com/chhongzh/adk-go/v2/session"
 )
 
 // ErrInvalidResumeResponse is returned by Workflow.Resume when a
